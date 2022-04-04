@@ -9,10 +9,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CLIMain {
+    public static Cli start;
 
     public static void main(String[] args) throws IOException, ParseException {
 
-        Cli start = new Cli(args);
+        try {
+            start = new Cli(args);
+        }catch (ArrayIndexOutOfBoundsException e){
+            start = new Cli();
+        }
 
         UserBase userBase = start.getUserBase();
         GraphDrawer graph = new GraphDrawer(start.filterDates());

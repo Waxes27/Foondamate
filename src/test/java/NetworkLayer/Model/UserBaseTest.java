@@ -1,7 +1,6 @@
 package NetworkLayer.Model;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
+
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -9,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 import NetworkLayer.Http.DataAccess;
 import org.junit.jupiter.api.Disabled;
@@ -17,6 +16,12 @@ import org.junit.jupiter.api.Test;
 
 class UserBaseTest {
     String dataToTest = new DataAccess("http://sam-user-activity.eu-west-1.elasticbeanstalk.com/").getDataFromApi();
+    UserBase correctUserBase = new UserBase(Map.of(
+            "01-01-2022", 3000,
+            "02-01-2022", 7000,
+            "03-01-2022", 8000
+
+    ));
 
     @Test
     void testConstructor() {
@@ -60,7 +65,7 @@ class UserBaseTest {
         stringIntegerMap.put("Key", 42);
         Map<String, Integer> actualAsMapResult = (new UserBase(stringIntegerMap)).asMap();
         assertEquals(1, actualAsMapResult.size());
-        Integer expectedGetResult = new Integer(42);
+        Integer expectedGetResult = 42;
         assertEquals(expectedGetResult, actualAsMapResult.get("Key"));
     }
 
@@ -104,12 +109,7 @@ class UserBaseTest {
     @Test
     void testFilterDates2() throws ParseException {
 
-        UserBase userBase = new UserBase(Map.of(
-                "01-01-2022", 3000,
-                "02-01-2022", 7000,
-                "03-01-2022", 8000
-
-        ));
+        UserBase userBase = correctUserBase;
         assertEquals(2, userBase.filterDates(Map.of(
                 "start", "01-01-2022",
                 "end", "02-01-2022"

@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.text.ParseException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Cli {
@@ -25,6 +26,17 @@ public class Cli {
         userBase = getUserBase(resultsAsString);
     }
 
+    public Cli() throws IOException {
+        arguments = Map.of(
+                "start","00-00-0000",
+                "end","00-00-0000"
+        );
+        data = getData();
+        resultsAsString = data.getDataFromApi();
+        userBase = getUserBase(resultsAsString);
+    }
+
+
     public Map<String, String> getArguments() {
         return arguments;
     }
@@ -41,16 +53,16 @@ public class Cli {
         return userBase;
     }
 
-    private DataAccess getData() throws MalformedURLException {
+    public DataAccess getData() throws MalformedURLException {
         System.out.println(this.url);
         return new DataAccess(url);
     }
 
-    private UserBase getUserBase(String results){
+    public UserBase getUserBase(String results){
         return new UserBase(results);
     }
 
-    private Map<String,String> getArgs(String[] args){
+    public Map<String,String> getArgs(String[] args){
         HashMap<String ,String> stringHashMap = new HashMap<>();
         stringHashMap.put("start",args[0]);
         stringHashMap.put("end", args[1]);

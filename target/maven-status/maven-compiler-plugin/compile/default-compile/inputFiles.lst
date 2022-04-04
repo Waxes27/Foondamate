@@ -1,7 +1,9 @@
-/home/waxes27/FoondamateCLI/src/main/java/CLI.java
+/home/waxes27/FoondamateCLI/src/main/java/CLI/Cli.java
 /home/waxes27/FoondamateCLI/src/main/java/NetworkLayer/Model/UserBase.java
 /home/waxes27/FoondamateCLI/src/main/java/Util/DateCompare.java
+/home/waxes27/FoondamateCLI/src/main/java/CLIMain.java
 /home/waxes27/FoondamateCLI/src/main/java/NetworkLayer/Http/DataAccessIntereface.java
 /home/waxes27/FoondamateCLI/src/main/java/Graph/GraphDrawer.java
 /home/waxes27/FoondamateCLI/src/main/java/NetworkLayer/Model/UserBaseInterface.java
 /home/waxes27/FoondamateCLI/src/main/java/NetworkLayer/Http/DataAccess.java
+/home/waxes27/FoondamateCLI/src/main/java/Util/DateSorter.java
