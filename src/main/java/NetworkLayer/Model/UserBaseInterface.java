@@ -1,5 +1,6 @@
 package NetworkLayer.Model;
 
+import java.text.ParseException;
 import java.util.Date;
 import java.util.Map;
 
@@ -7,5 +8,5 @@ public interface UserBaseInterface {
 
 
     public Map<String, Integer> asMap();
-    public Map<String, Date> filterDates(Map<String, Date> data, Map<String,String> startEndDates);
+    public UserBase filterDates(Map<String,String> startEndDates) throws ParseException;
 }

@@ -1,19 +1,24 @@
 package NetworkLayer.Model;
 
 
+import Util.DateSorter;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.text.DateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.text.ParseException;
+import java.util.*;
 
 public class UserBase implements UserBaseInterface {
-    private String jsonData;
+    private final String jsonData;
 
     public UserBase(String data) {
+
         this.jsonData = data;
+    }
+
+    public UserBase(Map<String, Integer> data){
+        this.jsonData = data.toString().replace("=",":");
     }
 
     @Override
@@ -37,7 +42,37 @@ public class UserBase implements UserBaseInterface {
     }
 
     @Override
-    public Map<String, Date> filterDates(Map<String, Date> data, Map<String, String> startEndDates) {
-        return null;
+    public UserBase filterDates(Map<String, String> startEndDates) throws ParseException {
+
+        List<String> dateSorted= new DateSorter().getSortedKeyArray(this.asMap());
+        Map<String,Integer> stringMapToBeReturned = new HashMap<>();
+
+
+        try {
+            dateSorted = dateSorted.subList(
+                    dateSorted.indexOf(startEndDates.get("start")),
+                    dateSorted.indexOf(startEndDates.get("end"))+1);
+
+            for (String i: dateSorted) {
+                stringMapToBeReturned.put(i,this.asMap().get(i));
+            }
+
+
+        }catch (IndexOutOfBoundsException | IllegalArgumentException e){
+            System.out.println("These are the available dates:");
+            for (Object i: dateSorted) {
+                System.out.println(i);
+            }
+            System.out.println("Error, range (" + startEndDates.get("start")+"  -  "+startEndDates.get("end")+") were not found");
+        }
+
+
+        return new UserBase(stringMapToBeReturned);
     }
+
+    public String getJsonData() {
+        return jsonData;
+    }
+
+
 }

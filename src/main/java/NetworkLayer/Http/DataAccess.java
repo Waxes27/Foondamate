@@ -3,10 +3,7 @@ package NetworkLayer.Http;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
+import java.net.*;
 
 public class DataAccess implements DataAccessIntereface {
 //    "http://sam-user-activity.eu-west-1.elasticbeanstalk.com/");
@@ -24,12 +21,17 @@ public class DataAccess implements DataAccessIntereface {
 
 
         URLConnection api = url.openConnection();
-        BufferedReader in = new BufferedReader(new InputStreamReader(api.getInputStream()));
-
-        while ((inputLine = in.readLine()) != null) {
-            data.append(inputLine);
+        try {
+            BufferedReader in = new BufferedReader(new InputStreamReader(api.getInputStream()));
+            while ((inputLine = in.readLine()) != null) {
+                data.append(inputLine);
+            }
+            in.close();
+        }catch (UnknownHostException e){
+            return "No such host";
         }
-        in.close();
+
+
 
 
         return data.toString().replace(" ","");
@@ -38,4 +40,5 @@ public class DataAccess implements DataAccessIntereface {
     public URL getUrl() {
         return this.url;
     }
+
 }
