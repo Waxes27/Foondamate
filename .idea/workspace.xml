@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decaf1d2-44f8-41c0-a8be-337ad8bb6802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Util/DateCompareTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CLI/Cli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CLI/Cli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CLIMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CLIMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NetworkLayer/Model/UserBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NetworkLayer/Model/UserBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/FoondamateCLI-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FoondamateCLI-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/FoondamateCLI-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FoondamateCLI-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CLI/Cli.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CLI/Cli.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2022-04-04T05-12-13_534.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Graph.GraphDrawerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/NetworkLayer.Http.DataAccessTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/NetworkLayer.Model.UserBaseTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Graph.GraphDrawerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-NetworkLayer.Http.DataAccessTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-NetworkLayer.Model.UserBaseTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NetworkLayer/Model/UserBaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NetworkLayer/Model/UserBaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +47,7 @@
       <recent name="NetworkLayer.Model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CLIMain">
+  <component name="RunManager" selected="Makefile Target.run">
     <configuration name="CLIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CLIMain" />
       <module name="FoondamateCLI" />
@@ -92,13 +77,10 @@
       </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for class Cli" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="FoondamateCLI" />
-      <settings run-config-name="Write tests for class Cli" include-system-env-vars="true">
-        <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="CLI.Cli" />
-      </settings>
+    <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
       <method v="2" />
     </configuration>
     <configuration name="Write tests for class DataAccessIntereface" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
@@ -132,18 +114,18 @@
       <item itemvalue="Diffblue Cover.Write tests for class DataAccessIntereface" />
       <item itemvalue="Diffblue Cover.Write tests for class UserBase" />
       <item itemvalue="Makefile Target.all" />
-      <item itemvalue="Diffblue Cover.Write tests for class Cli" />
       <item itemvalue="Diffblue Cover.Write tests for class DateCompare" />
       <item itemvalue="JUnit.DateCompareTest.testCompare" />
       <item itemvalue="Application.CLIMain" />
+      <item itemvalue="Makefile Target.run" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CLIMain" />
+        <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.all" />
+        <item itemvalue="Application.CLIMain" />
         <item itemvalue="JUnit.DateCompareTest.testCompare" />
         <item itemvalue="Diffblue Cover.Write tests for class DateCompare" />
-        <item itemvalue="Diffblue Cover.Write tests for class Cli" />
       </list>
     </recent_temporary>
   </component>

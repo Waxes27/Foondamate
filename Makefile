@@ -3,3 +3,4 @@ run:
 
 all:
 	mvn install clean compile package
+
