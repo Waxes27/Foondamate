@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decaf1d2-44f8-41c0-a8be-337ad8bb6802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CLI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Graph/GraphDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/GraphDrawer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Graph/GraphDrawerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Graph/GraphDrawerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CLI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Graph/GraphDrawer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Graph/GraphDrawer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Graph/GraphDrawerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Graph/GraphDrawerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

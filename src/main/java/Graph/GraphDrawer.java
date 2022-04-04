@@ -41,7 +41,10 @@ public class GraphDrawer {
 
 
         for (String i : sortedKeyData){
-            System.out.println(i + "   " + StringUtils.repeat("|", this.data.asMap().get(i)/factor));
+            System.out.println(i + "   " +
+                    StringUtils.repeat("|", this.data.asMap().get(i)/factor) +
+                    "|(" + this.data.asMap().get(i) + ")|"
+            );
         }
 
     }
