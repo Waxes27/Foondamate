@@ -3,11 +3,14 @@
 
 Welcome to the Foondamate Data VCLI.
 
-
+#Prerequisites:
+    
+    Java 11 SE (required to run program)
+    Maven      (Optional)
 
 The product has already been packaged and can be found ("target/FoondamateCLI-1.0-SNAPSHOT-jar-with-dependencies.jar")
 
-## Issues and their resolutions:
+### Issues and their resolutions:
     java -jar target/FoondamateCLI-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 #### this command may yield and in app error such as below:

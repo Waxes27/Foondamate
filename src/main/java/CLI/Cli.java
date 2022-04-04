@@ -28,8 +28,8 @@ public class Cli {
 
     public Cli() throws IOException {
         arguments = Map.of(
-                "start","00-00-0000",
-                "end","00-00-0000"
+                "start","01-01-2022",
+                "end","15-01-2022"
         );
         data = getData();
         resultsAsString = data.getDataFromApi();

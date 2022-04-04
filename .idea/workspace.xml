@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decaf1d2-44f8-41c0-a8be-337ad8bb6802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FoondamateCLI-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FoondamateCLI-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FoondamateCLI-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FoondamateCLI-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CLI/Cli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CLI/Cli.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +43,21 @@
       <recent name="NetworkLayer.Model" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile Target.run">
+  <component name="RunManager" selected="Application.CLIMain">
     <configuration name="CLIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CLIMain" />
       <module name="FoondamateCLI" />
+      <option name="PROGRAM_PARAMETERS" value="03-05-2023 03-01-2024" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,19 +118,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.CLIMain" />
       <item itemvalue="Diffblue Cover.Write tests for class DataAccessIntereface" />
       <item itemvalue="Diffblue Cover.Write tests for class UserBase" />
-      <item itemvalue="Makefile Target.all" />
       <item itemvalue="Diffblue Cover.Write tests for class DateCompare" />
       <item itemvalue="JUnit.DateCompareTest.testCompare" />
-      <item itemvalue="Application.CLIMain" />
+      <item itemvalue="Makefile Target.all" />
       <item itemvalue="Makefile Target.run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CLIMain" />
         <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.all" />
-        <item itemvalue="Application.CLIMain" />
         <item itemvalue="JUnit.DateCompareTest.testCompare" />
         <item itemvalue="Diffblue Cover.Write tests for class DateCompare" />
       </list>
