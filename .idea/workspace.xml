@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="decaf1d2-44f8-41c0-a8be-337ad8bb6802" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/GraphDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Util/DateCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NetworkLayer/Http/DataAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NetworkLayer/Http/DataAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NetworkLayer/Model/UserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NetworkLayer/Model/UserBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NetworkLayer/Model/UserBaseInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NetworkLayer/Model/UserBaseInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NetworkLayer/Http/DataAccessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NetworkLayer/Http/DataAccessTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="27J6xIS0YCTiih8C7M5AxmZjrPl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="NetworkLayer.Model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GraphDrawerTest.testGetSortedArray3">
+    <configuration name="CLI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CLI" />
+      <module name="FoondamateCLI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphDrawerTest.testGetSortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoondamateCLI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph" />
+      <option name="MAIN_CLASS_NAME" value="Graph.GraphDrawerTest" />
+      <option name="METHOD_NAME" value="testGetSortedArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphDrawerTest.testGetSortedArray2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoondamateCLI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph" />
+      <option name="MAIN_CLASS_NAME" value="Graph.GraphDrawerTest" />
+      <option name="METHOD_NAME" value="testGetSortedArray2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphDrawerTest.testGetSortedArray3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FoondamateCLI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Graph" />
+      <option name="MAIN_CLASS_NAME" value="Graph.GraphDrawerTest" />
+      <option name="METHOD_NAME" value="testGetSortedArray3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Write tests for class DataAccessIntereface" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="FoondamateCLI" />
+      <settings run-config-name="Write tests for class DataAccessIntereface" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="NetworkLayer.Http.DataAccessIntereface" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class UserBase" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="FoondamateCLI" />
+      <settings run-config-name="Write tests for class UserBase" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="NetworkLayer.Model.UserBase" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for method GraphDrawer.getSortedArray" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="FoondamateCLI" />
+      <settings run-config-name="Write tests for method GraphDrawer.getSortedArray" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="Graph.GraphDrawer.getSortedArray:(Ljava/util/Map;)Ljava/util/List;" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GraphDrawerTest.testGetSortedArray3" />
+        <item itemvalue="JUnit.GraphDrawerTest.testGetSortedArray" />
+        <item itemvalue="JUnit.GraphDrawerTest.testGetSortedArray2" />
+        <item itemvalue="Diffblue Cover.Write tests for method GraphDrawer.getSortedArray" />
+        <item itemvalue="Application.CLI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="decaf1d2-44f8-41c0-a8be-337ad8bb6802" name="Changes" comment="" />
+      <created>1649026086327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649026086327</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

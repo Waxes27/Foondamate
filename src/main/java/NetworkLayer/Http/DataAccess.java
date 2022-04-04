@@ -11,7 +11,7 @@ import java.net.URLConnection;
 public class DataAccess implements DataAccessIntereface {
 //    "http://sam-user-activity.eu-west-1.elasticbeanstalk.com/");
 
-    private URL url;
+    private final URL url;
 
     public DataAccess(String url) throws MalformedURLException {
         this.url = new URL(url);
@@ -33,5 +33,9 @@ public class DataAccess implements DataAccessIntereface {
 
 
         return data.toString().replace(" ","");
+    }
+
+    public URL getUrl() {
+        return this.url;
     }
 }

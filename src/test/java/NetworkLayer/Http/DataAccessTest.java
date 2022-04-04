@@ -19,5 +19,6 @@ class DataAccessTest {
         assertEquals(dataToTest.getClass(),String.class);
         assertEquals(dataCorrect.getUrl().toString(),"http://sam-user-activity.eu-west-1.elasticbeanstalk.com/");
     }
+
 }
 
