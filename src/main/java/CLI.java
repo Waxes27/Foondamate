@@ -18,6 +18,7 @@ public class CLI {
 
 
         GraphDrawer graph = new GraphDrawer(userBase);
+        graph.draw();
     }
 
     private static DataAccess getData() throws MalformedURLException {

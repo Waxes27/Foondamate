@@ -23,7 +23,7 @@ class GraphDrawerTest {
         UserBase userBase = mock(UserBase.class);
         when(userBase.asMap()).thenReturn(new HashMap<>());
         GraphDrawer graphDrawer = new GraphDrawer(userBase);
-        assertTrue(graphDrawer.getSortedArray(new HashMap<>()).isEmpty());
+        assertTrue(graphDrawer.getSortedKeyArray(new HashMap<>()).isEmpty());
         verify(userBase).asMap();
     }
 
@@ -36,7 +36,7 @@ class GraphDrawerTest {
 
         HashMap<String, Integer> stringIntegerMap = new HashMap<>();
         stringIntegerMap.put("Key", 42);
-        List<String> actualSortedArray = graphDrawer.getSortedArray(stringIntegerMap);
+        List<String> actualSortedArray = graphDrawer.getSortedKeyArray(stringIntegerMap);
         assertEquals(1, actualSortedArray.size());
         assertEquals("Key", actualSortedArray.get(0));
         verify(userBase).asMap();
@@ -53,7 +53,7 @@ class GraphDrawerTest {
         HashMap<String, Integer> stringIntegerMap = new HashMap<>();
         stringIntegerMap.put("03-04-2002", 42);
         stringIntegerMap.put("01-04-2022", 42);
-        graphDrawer.getSortedArray(stringIntegerMap);
+        graphDrawer.getSortedKeyArray(stringIntegerMap);
     }
 }
 
