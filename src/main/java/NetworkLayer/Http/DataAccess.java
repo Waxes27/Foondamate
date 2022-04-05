@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
 
-public class DataAccess implements DataAccessIntereface {
+public class DataAccess implements DataAccessInterface {
 //    "http://sam-user-activity.eu-west-1.elasticbeanstalk.com/");
 
     private final URL url;

@@ -2,12 +2,10 @@ package CLI;
 
 import NetworkLayer.Http.DataAccess;
 import NetworkLayer.Model.UserBase;
-
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.text.ParseException;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Cli {
